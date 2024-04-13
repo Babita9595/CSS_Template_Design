@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(235 234 233);
+}
+
+.page1 {
+    max-width: 40%;
+    background-color: white;
+    height: 600px;
+    margin: 40px auto;
+    position: relative;
+    border: 5px solid green;
+}
+
+.big-img {
+    height: 505px;
+    width: auto;
+    z-index: 1;
+    padding-bottom: 29px;
+    position: absolute;
+    bottom: -14px;
+    left: 96px;
+}
+
+.sub-container-one {
+    display: flex;
+    background-color: white;
+    /* width: 100%; */
+    justify-content: space-between;
+    color: black
+}
+
+.test-message {
+    width: 536px;
+    background-color: #9bffa8;
+    height: 418px;
+    right: 33px;
+    position: absolute;
+    padding: 20px 0p 0px 40px;
+}
+
+.sub-container-third {
+    position: absolute;
+    width: 91.5%;
+    border-radius: 51px 0px 0px 50px;
+    height: 82px;
+    bottom: 49px;
+    left: 97px;
+
+}
+
+.test-message h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 67px 0px 9px 50px;
+}
+
+
+.test-message h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: rgba(0, 128, 0, 0.178);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 0px 0px 84px
+}
+
+.mini-logo-div {
+    margin-left: 362px;
+    height: 199px;
+    background-color: #9bffa8;
+    width: 218px;
+    margin-top: 114px;
+    /* border-radius: 142px; */
+    z-index: 1;
+}
+
+.mini-logo-div img {
+    border-radius: 105px;
+}
+
+marquee {
+    font-size: 35px;
+    margin-top: 20px;
+    /* width: 575px; */
+    margin-left: 120px;
+}
